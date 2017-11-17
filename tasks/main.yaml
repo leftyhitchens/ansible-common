@@ -8,3 +8,7 @@
   become: true
   apt:
     name: unzip
+- name: Install git
+  become: true
+  apt:
+    name: git
